@@ -1,5 +1,5 @@
 # 0-1 React Tutorial
-The following tutorial should help in everything from basic knowledge of forms until the deployment phase.
+The following tutorial should help in everything from basic knowledge of forms until the deployment phase.\
 [Click Here, for the PPT.](http://bit.ly/2w8iCYc)
 # Basic forms
 
