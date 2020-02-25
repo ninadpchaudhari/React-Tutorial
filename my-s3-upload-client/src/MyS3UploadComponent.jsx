@@ -54,7 +54,7 @@ export class MyS3UploadComponent extends Component {
   
   
   render() {
-    const Success_message = () => (
+    const SuccessMessage = () => (
       <div style={{padding:50}}>
         <h3 style={{color: 'green'}}>SUCCESSFUL UPLOAD</h3>
         <a href={this.state.url}>Access the file here</a>
@@ -65,7 +65,7 @@ export class MyS3UploadComponent extends Component {
       <div className="App">
         <center>
           <h1>UPLOAD A FILE</h1>
-          {this.state.success ? <Success_message/> : null}
+          {this.state.success ? <SuccessMessage/> : null}
           <input onChange={this.handleChange} ref={(ref) => { this.uploadInput = ref; }} type="file"/>
           <br/>
           <button onClick={this.handleUpload}>UPLOAD</button>
