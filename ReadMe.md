@@ -155,7 +155,7 @@ Important highlights :
 ## Generating Entire skeleton of an app.
 You can certainly add everyting, but in general an express app has typical skeleton, we can use generator to scaffold out basic functions. We will use `npx` for this.
 1. cd to a new directory
-2. run `npx express-generator --view-ejs` .This will scaffold an express app.
+2. run `npx express-generator --view ejs` .This will scaffold an express app.
 3. Observe the files.
 
 `app.js` is the start point of the app. It contains basic code to parse requests and imports to indexRoutes and userRoutes. `index.js`(one of the controllers) in routes folder contains the code to be invoked when any request hits the server on root domain. An example flow is :
