@@ -295,6 +295,9 @@ This component can be rendered into a place, which we will provide the markup fo
 
 note: as you make changes in code, the same is auto reflected to your browser.
 
+### Syntax for setState.
+Please read about state. It is a bunch of variables a component can store. You update variables in state by calling the `.setState(Object)` method. It takes a Object as a parameter the syntax is : {<Var to update> : <The value>} Checkout the way W3c School's form handling for reference or my addition form.
+  
 ## Consuming the Addition API we saw previously
 please refer to the [w3school forms](https://www.w3schools.com/react/react_forms.asp) for more info. Before we begin, I am copying `my-client` into a folder `my-addition-client` so the previous section can be reffered.
 ### My plan is such : 
