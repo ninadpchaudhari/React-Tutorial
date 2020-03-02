@@ -391,7 +391,7 @@ Followed by following the steps to [start MongoDB](https://docs.mongodb.com/manu
 ### Deploying the Client. 
 1. Make sure  you are happy with your app. Remember, you are communicating your backend server at http://localhost:9000. You need to change that to the URL of your EC2.
 2. run `npm run-script build`. This will compile your JSX modules to a static website, servable by Nginx.
-3. goto client folder in your cloned repo, then run `npm install && npm build` on server, then copy the contents of `build` folder to `/var/www/html`. Ensure you delete the index.debian.html file in that folder first.
+3. goto client folder in your cloned repo, then run `npm install && npm run-script build` on server, then copy the contents of `build` folder to `/var/www/html`. Ensure you delete the index.debian.html file in that folder first.
 4. You can also copy the contents of `build` folder on your PC to  `/var/www/html`. TIP : You can zip before upload using `zip -r build.zip build/` That way it is faster.
 
 
