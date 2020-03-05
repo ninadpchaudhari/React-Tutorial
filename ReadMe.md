@@ -271,7 +271,7 @@ Now, starting form scratch, Adding just 1 file : `index.js` in the src directory
 import React from 'react';
 import ReactDOM from 'react-dom'; 
 import 'bootstrap/dist/css/bootstrap.css';
-class myFirstComponent extends React.Component{
+class MyFirstComponent extends React.Component{
     render(){
         return (
             <h1>Hello! 
