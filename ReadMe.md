@@ -1,6 +1,20 @@
 # 0-1 React Tutorial
 The following tutorial should help in everything from basic knowledge of forms until the deployment phase.\
 [Click Here, for the PPT.](http://bit.ly/2w8iCYc)
+
+# Steps
+1. Create a Static page in HTML/Bootstrap.
+1. Create scaffolds for Server and client apps. Can just copy the folders & files already in this repo!Try starting both the server and client.
+1. Add your html page you added in step 1 into your react app.
+1. Deploy to EC2.
+1. Add an API in your application which accepts name and description and saves it to the Database. Then test this API
+1. Redeploy! and check if it works online!
+1. Add API in the server which accepts a username and a password and returns {"Auth": "Success"} as Output (Refer to the section about addition api)
+1. Consume that API in the client-side ReactJS app. (Refer to the section where making a simple addition API is discussed)
+1. Create a form which has inputs for name, description & sends the data to the previously developed API.
+1. Modify reactJS component such that the form mentioned in earlier step is only visible when the user has successfully logged in. ( Use conditional rendering)
+1. Test if saving name and decription works now!
+
 # Basic forms
 
 ## Very basic form
