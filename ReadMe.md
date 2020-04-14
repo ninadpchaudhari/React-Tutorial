@@ -409,6 +409,7 @@ Followed by following the steps to [start MongoDB](https://docs.mongodb.com/manu
 2. run `npm run-script build`. This will compile your JSX modules to a static website, servable by Nginx.
 3. goto client folder in your cloned repo, then run `npm install && npm run-script build` on server, then copy the contents of `build` folder to `/var/www/html`. Ensure you delete the index.debian.html file in that folder first.
 4. You can also copy the contents of `build` folder on your PC to  `/var/www/html`. TIP : You can zip before upload using `zip -r build.zip build/` That way it is faster.
+5. If you are using BrowserRouter in react app: modify `location /` block in nginx's default block in `/etc/nginx/sites-enabled/default` to have `try_files $uri $uri/ /index.html;` You are always recomended to use HashRouter if you do not want to miodify this :)
 
 
 You should now be able to access your React app over at EC2 address and server at port 9000. 
