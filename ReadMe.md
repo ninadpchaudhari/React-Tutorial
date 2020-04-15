@@ -18,6 +18,11 @@ The following tutorial should help in everything from basic knowledge of forms u
 # Videos
 1. [Lecture  3/31](https://livealbany-my.sharepoint.com/:u:/g/personal/nchaudhari_albany_edu/ETcpKEXDczVKoOxPb8VnO8cBFiceqYc4qCtu3jpu2FVxuQ?e=tNtWrU)
 1. [Deploying Client and Server](https://youtu.be/36F0lLfFWfo)
+
+# Design
+Design diagrams for the project, along with a sample sequence diagram for general React Component.
+[Class, Sequence Diagrams] (https://livealbany-my.sharepoint.com/:u:/g/personal/nchaudhari_albany_edu/EUbbikkT9d9Ou-ksaPtOImMBlbwH5Nxpc1_Z_AMDuT-gMw?e=APGaSJ)
+
 # Basic forms
 
 ## Very basic form
