@@ -17,6 +17,7 @@ The following tutorial should help in everything from basic knowledge of forms u
 
 # Videos
 1. [Lecture  3/31](https://livealbany-my.sharepoint.com/:u:/g/personal/nchaudhari_albany_edu/ETcpKEXDczVKoOxPb8VnO8cBFiceqYc4qCtu3jpu2FVxuQ?e=tNtWrU)
+1. [Deploying Client and Server](https://youtu.be/36F0lLfFWfo)
 # Basic forms
 
 ## Very basic form
