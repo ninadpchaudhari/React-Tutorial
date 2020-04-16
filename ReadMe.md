@@ -17,12 +17,11 @@ The following tutorial should help in everything from basic knowledge of forms u
 
 # Videos and Presentations
 1. [Lecture  3/31](https://livealbany-my.sharepoint.com/:u:/g/personal/nchaudhari_albany_edu/ETcpKEXDczVKoOxPb8VnO8cBFiceqYc4qCtu3jpu2FVxuQ?e=tNtWrU)
-1. [Deploying Client and Server Video](https://youtu.be/36F0lLfFWfo) 
-1. [Presentation](https://livealbany-my.sharepoint.com/:p:/g/personal/nchaudhari_albany_edu/ESbvGpKEXAFNpRx0GHMl4ogBxT2AsfGkzC6zX2r3cUsOQQ?e=dCv6eB)
+1. [Deploying Client and Server Video](https://youtu.be/36F0lLfFWfo)  | [Presentation](https://livealbany-my.sharepoint.com/:p:/g/personal/nchaudhari_albany_edu/ESbvGpKEXAFNpRx0GHMl4ogBxT2AsfGkzC6zX2r3cUsOQQ?e=dCv6eB)
 
 # Design
 Design diagrams for the project, along with a sample sequence diagram for general React Component.
-[Class, Sequence Diagrams] (https://livealbany-my.sharepoint.com/:u:/g/personal/nchaudhari_albany_edu/EUbbikkT9d9Ou-ksaPtOImMBlbwH5Nxpc1_Z_AMDuT-gMw?e=APGaSJ)
+- [Class and Sequence Diagrams] (https://livealbany-my.sharepoint.com/:u:/g/personal/nchaudhari_albany_edu/EUbbikkT9d9Ou-ksaPtOImMBlbwH5Nxpc1_Z_AMDuT-gMw?e=APGaSJ)
 
 # Basic forms
 
