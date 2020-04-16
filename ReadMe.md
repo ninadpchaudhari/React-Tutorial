@@ -21,7 +21,7 @@ The following tutorial should help in everything from basic knowledge of forms u
 
 # Design
 Design diagrams for the project, along with a sample sequence diagram for general React Component.
-- [Class and Sequence Diagrams] (https://livealbany-my.sharepoint.com/:u:/g/personal/nchaudhari_albany_edu/EUbbikkT9d9Ou-ksaPtOImMBlbwH5Nxpc1_Z_AMDuT-gMw?e=APGaSJ)
+- [Class and Sequence Diagrams](https://livealbany-my.sharepoint.com/:u:/g/personal/nchaudhari_albany_edu/EUbbikkT9d9Ou-ksaPtOImMBlbwH5Nxpc1_Z_AMDuT-gMw?e=APGaSJ)
 
 # Basic forms
 
