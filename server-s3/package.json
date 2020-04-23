@@ -14,6 +14,9 @@
     "ejs": "~2.6.1",
     "express": "~4.16.1",
     "http-errors": "~1.6.3",
+    "mongo": "^0.1.0",
+    "mongodb": "^3.5.5",
+    "mongoose": "^5.9.9",
     "morgan": "~1.9.1"
   }
 }

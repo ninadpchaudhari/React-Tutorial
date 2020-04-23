@@ -2,6 +2,7 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import 'bootstrap/dist/css/bootstrap.css';
 import { MyAdditionForm } from './MyAdditionForm';
+import {MyFavNews} from './MyFavNews';
 //Import your custom css using
 //import './index.css';
 
@@ -14,7 +15,14 @@ class MyFirstComponent extends React.Component {
               <small className="text-muted">With faded secondary world!</small>
                 </h1>
                 <div className="container">
+                    <div className="row">
                     <MyAdditionForm/>
+                    </div>
+                    <div className="row">
+                    <MyFavNews/>
+                    </div>
+                    
+
                 </div>
             </div>
 

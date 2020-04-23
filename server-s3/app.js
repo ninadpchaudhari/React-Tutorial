@@ -10,6 +10,7 @@ var awsCtrl = require("./awsCtrl");
 var cors = require('cors');
 var app = express();
 
+var db = require("./database")
 require('dotenv').config(); // Configure dotenv to load in the .env file
 // Configure aws with your accessKeyId and your secretAccessKey
 

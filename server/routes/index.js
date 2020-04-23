@@ -17,4 +17,8 @@ router.get('/add/:firstNumber/and/:secondNumber', (req,res)=>{
   res.json({"Addition" : firstNo + secondNo});
 });
 
+router.post('/save', (req,res)=>{
+  let name = req.body.name;
+  let desc = req.body.desc;
+});
 module.exports = router;

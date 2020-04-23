@@ -10,6 +10,7 @@ export class MyAdditionForm extends React.Component {
     }
     //Function to be called when user makes a change
     myChangeHandler = (event) => {
+        debugger;
         let nam = event.target.name;
         let val = event.target.value;
         this.setState({ [nam]: val }); //nam becomes a computed property.
@@ -20,7 +21,7 @@ export class MyAdditionForm extends React.Component {
 
         event.preventDefault(); // prevent default behaviour
         //Constructing URL to send to the server.
-        const url = `http://localhost:9000/add/${this.state.firstNumber}/and/${this.state.secondNumber}`
+        const url = `http://ec2-54-165-150-107.compute-1.amazonaws.com:9000/add/${this.state.firstNumber}/and/${this.state.secondNumber}`
         fetch(url)
             .then((result) => result.json())
             .then(result => {
@@ -28,7 +29,7 @@ export class MyAdditionForm extends React.Component {
                 //NOTE: You do not care where or how to display the result.
                 // As HOW to display is the job of the view.
                 // You just update the state and let React take it on from there.
-
+                debugger;
                 this.setState({ queryResult: result.Addition })
             });
     }
